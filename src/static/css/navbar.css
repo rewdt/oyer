@@ -1,0 +1,40 @@
+input::placeholder{color:rgba(88, 68, 68, 0.192); position: absolute; padding:20px}
+.search.icon{position: absolute; left:0}
+.ui.input input[type=text] {padding-left: 30px !important; margin-bottom: 6px !important}
+.ui.secondary.menu .item>img{
+    width: 100px;
+}
+.ui.menu:not(.vertical) .item>.input {margin-bottom: -13px;}
+
+.ui.inverted.segment {
+    border-radius:0;
+    background-color: black;
+    height: 57px;
+    padding-top: 0px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.ui.fluid.image {
+    position: absolute;
+    width: 1440px;
+    height: 397px;
+    left: 0px;
+    top: 57px;
+}
+.ui.secondary.inverted.menu a.item {
+    color: #ffffff !important;
+    font-family: Proxima Nova;
+    font-size: 14px;
+    font-weight: bolder;
+    letter-spacing: 0px;
+}
+
+.ui.menu .item>.input input {
+    /* height: 26px; */
+    background-color: #fafafa;
+}
+
+.semanticbutton {
+    background-color:#FBAC2A !important;
+    color: black !important;
+}

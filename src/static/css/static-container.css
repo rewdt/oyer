@@ -1,0 +1,25 @@
+.ui.fluid.container.statictimeline {
+    position: absolute;
+    top: 1600px;
+    display: flex;
+    justify-content: center;
+}
+.half-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-top: 50px;
+}
+hr{
+    position: relative;
+    top: 80px;
+    border: 0.25px solid #5050501f;
+}
+.firstelement{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px
+}
+.new-segment{width:800px;}
+.ui.segment.new-segment{border: none;}

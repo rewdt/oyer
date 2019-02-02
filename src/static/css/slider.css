@@ -1,0 +1,39 @@
+.ui.fluid.container.black-container{
+    position: absolute;
+    top: 800px;
+    padding-bottom: 20px;
+    background-color:black;
+    overflow-x: hidden;
+}
+.ui.fluid.container.ablack-container{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.card-children:nth-child(3) {width: 332px;
+    height: 512px;}
+.card-children:nth-child(3) >img{width: 332px;
+    height: 512px;}
+.card-children {width:328px; height: 426px}
+.card-children > img{width:328px; height: 426px}
+.ui.card.card-children:first-child {
+    margin-top: 1em;
+}
+.ui.card.card-children:last-child {
+    margin-bottom: 1em;
+}
+.ui.card {
+    margin: 1em 8px;
+    width: 400px;
+}
+.ui.card:nth-child(1) {margin-left:-150px}
+.ui.card:nth-child(5) {margin-right:-150px}
+
+.fwdandbwd{
+    color:white; 
+    display: grid; 
+    grid-template-columns: auto auto;
+    position: relative;
+    bottom:300px;
+}
+.right-icon{display: flex; justify-content: flex-end;}

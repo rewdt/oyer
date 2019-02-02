@@ -1,0 +1,23 @@
+.vert{
+    border: 20px solid red;
+    height:500px;
+}
+.ui.segment.segment-original{
+    display: grid;
+    grid-template-columns: auto auto;
+    border: none;
+}
+.video-container {
+    display: flex;
+    justify-content: center
+}
+video{
+    width: 565px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+}
+.video-text-align{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
